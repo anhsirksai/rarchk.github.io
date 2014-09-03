@@ -9,4 +9,4 @@ image:
   creditlink: 
 ---
 # Model Checking 
-1. [Introduction to SPIN]({{site.url}}/_talks/spinintro.html)
+1. [Introduction to SPIN](http://cvest.github.io/SpinExamples)
