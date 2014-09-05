@@ -2,7 +2,7 @@
 layout: post
 title: "Few nuggets for Kernel Developers"
 modified: 2014-09-03 15:51:14 +0530
-tags: [os,linux,kernel,survey]
+tags: [OS,linux,kernel,survey]
 image:
   feature: abstract-6.jpg
   credit: 

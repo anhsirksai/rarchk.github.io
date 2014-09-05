@@ -2,7 +2,7 @@
 layout: post
 title: "Lean Tower of GPGPU"
 modified: 2014-09-03 16:39:44 +0530
-tags: [cuda,gpgpu,architecture]
+tags: [cuda,GPGPU,architecture]
 image:
   feature: abstract-1.jpg
   credit: 

@@ -2,7 +2,7 @@
 layout: post
 title: "State of Linux Container Support"
 modified: 2014-09-04 03:12:20 +0530
-tags: [containers,linux,os,virtualization]
+tags: [containers,linux,OS,virtualization]
 image:
   feature: abstract-6.jpg
   credit: 

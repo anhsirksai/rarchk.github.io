@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "/proc"
+title: "Gems within /proc"
 modified: 2014-09-04 04:05:14 +0530
-tags: [linux,os,survey]
+tags: [linux,OS,survey]
 image:
   feature: abstract-6.jpg
   credit: 

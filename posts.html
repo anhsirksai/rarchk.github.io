@@ -3,30 +3,41 @@ layout: post-index
 permalink: /posts/
 title: All Posts
 description: "An archive of posts."
+image: 
+  feature: abstract-10.jpg
 ---
-
+<article>
 {% for post in site.posts %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+    {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
     {% if forloop.first %}
-    <article>
-      <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
-      <ul>
+    
+      <h2 id="{{ this_month }}-ref">{{ this_month }}</h2>
+      <ol type="I">
     {% endif %}
 
-        <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        <li class="entry-title">
+        <div class="pull-left">
+        <emph> 
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> </div>
+        </emph>
+        <div class='pull-right'>
+        <i>
+        {{ post.date | date: "%d %b"}} </i></div>
+        </li>
 
     {% if forloop.last %}
-      </ul>
-    </article>
+      </ol>
     {% else %}
-        {% if this_year != next_year %}
-          </ul>
-        </article>
-        <article>
-          <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
-          <ul>
+        {% if this_month != next_month %}
+          </ol>
+        
+        
+          <h2 id="{{ next_month }}-ref">{{next_month}}</h2>
+          <ol type="I">
         {% endif %}
     {% endif %}
+    
 {% endfor %}
+</article>
