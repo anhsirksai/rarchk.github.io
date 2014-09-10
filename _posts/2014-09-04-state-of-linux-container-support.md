@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "State of Linux Container Support"
+title: "State of Container Support in Linux"
 modified: 2014-09-04 03:12:20 +0530
 tags: [containers,linux,OS,virtualization]
 image:
@@ -9,7 +9,7 @@ image:
   creditlink: 
 comments: True
 share: True
-description: Containers is emerging field of interest in virtualization domain, as it does not require hypervisor to virtualize complete operating system, and it provides a certain degree of isolation on host operating systems. However linux kernel does not have full support for containers, though they have linux namespaces and cgroups for isolation and resource control.     
+description: Containers are everywhere. They provide light weight virtualization , as thy can run on native operating system, and it provides a certain degree of isolation on host operating systems. However, containers are in fact wrappers around linux kernel's features like linux namespaces, cgroups, selinux and chroot jails. In this post, we discuss these primitive features     
 ---
 
 ###Linux Containers 
