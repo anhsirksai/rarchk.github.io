@@ -37,10 +37,8 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Projects
-    url: /projects
-  - title: Talks
-    url: /talks
+  - title: Three Assumptions
+    url: /ThreeAssumptions
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Kolkata
@@ -52,7 +50,7 @@ markdown:    kramdown
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 5
+paginate: 7
 
 kramdown:
   auto_ids: true

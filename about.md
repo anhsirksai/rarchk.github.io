@@ -15,9 +15,8 @@ My interest lies in *parallel algorithms, computer architecture, and operating s
 
 Here are my other things, that I spend time on:
 
-+ **[Research@IIIT-H](http://researchweb.iiit.ac.in/~ronak.kogta/)**
-+ **[My Projects]({{site.url}}/projects)**
++ **[Research@IIIT-H](http://researchweb.iiit.ac.in/~ronak.kogta/)** 
++ **[Three Assumptions]({{site.url}}/ThreeAssumptions)**, my another blog, where I write about my views on CS 
 
 ----
-P.S : I love this way of vim based, git powered [blogging]({{site.url}}), and that's why I've decided to leave blogger for good. 
 
