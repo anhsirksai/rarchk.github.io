@@ -29,7 +29,7 @@ description: Containers are everywhere. They provide light weight virtualization
 Containers and KVM virtualization differs in the level of abstarction they provide.
 
 ###Namespaces
-Purpose of each namespace is to wrap a particular global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of the global resource. Currently there are 6 kind of namespaces in linux kernel 
+Partition of essential kernel system structures to create virtualized environments. In other words, purpose of each namespace is to wrap a particular global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of the global resource. Currently there are 6 kind of namespaces in linux kernel 
 
 1. pid namespace 
 2. mounts namespace
@@ -82,8 +82,9 @@ $ man 2 prctl() # Enabled by seccomp
 ###Cgroups
 Feature to limit, police and account the resource usage of process groups. 
 
+- Resources like cpu, memory, disk I/O etc, can be allowed as well as denied to a group of system, if needed be.
+- Facilities to prioritize, accounting and controlling a system is available.  
 - Compared to other approaches like the 'nice' command or /etc/security/limits.conf, cgroups are more flexible.
-- can also tweak memory, bandwidth and CPU usage of system processes as well as deny access to system resources.
 - everything exposed through a vfs: /cgroup
 
 
